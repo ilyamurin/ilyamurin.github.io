@@ -1,5 +1,7 @@
 html {
-	background-image: url(background.jpg) no-repeat cover;
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .nav-text {
 	color: #E9E5B0;
