@@ -1,6 +1,5 @@
-body {
-	background-image: url(background.jpg);
-	background-size: cover;
+html {
+	background-image: url(background.jpg) no-repeat cover;
 }
 .nav-text {
 	color: #E9E5B0;
@@ -20,6 +19,7 @@ body {
 }
 .main_text {
 	color: #F7F3B5;
+	margin-left: 5px;
 }
 .main_list {
 	list-style-type: upper-roman;
