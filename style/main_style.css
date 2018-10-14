@@ -1,61 +1,76 @@
 html {
-	background-image: url(../images/background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .nav-text {
-	color: #E9E5B0;
+    color: #E9E5B0;
 }
 .navbar {
-	background-color: #040306;
-	width: 100%;
+    background-color: #040306;
+    width: 100%;
 }
+#nav-logo {
+    width: 30%;
+}
+
 .phone_bar {
-	background-color: #3F3C60;
+    background-color: #3F3C60;
 }
+
 .img-box {
-	width: 40%;
-	height: 50%;
+    width: 40%;
+    height: 50%;
 
 }
+
 .img-con {
-	width: 10%;
+    width: 10%;
 }
+
 .dropdown_background {
-	background-color: transparent;
+    background-color: transparent;
 }
+
 .bold {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 .main_text {
-	color: #F7F3B5;
-	margin-left: 5px;
+    color: #F7F3B5;
+    margin-left: 5px;
 }
+
 .main_list {
-	list-style-type: upper-roman;
+    list-style-type: upper-roman;
 }
+
 .footer_links {
-	margin-right: 5%;
+    margin-right: 5%;
 }
+
 .footer_link {
-	width: 35px;
-	margin-left: 1%;
+    width: 35px;
+    margin-left: 1%;
 }
+
 footer {
-	position: fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: transparent;
     text-align: right;
 }
-.myImg {
-	width: 15%;
-	padding: 3px;
-}
-.myImg:hover {
-	width: 18%;
-	border: solid 3px;
-}
-.img-div {
 
+.myImg {
+    width: 15%;
+    padding: 3px;
 }
+
+.myImg:hover {
+    width: 18%;
+    border: solid 3px;
+}
+
+.img-div {}
