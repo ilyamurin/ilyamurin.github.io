@@ -4,6 +4,7 @@ html {
     background-repeat: no-repeat;
 }
 
+
 .nav-text {
     color: #E9E5B0;
 }
@@ -12,7 +13,7 @@ html {
     width: 100%;
 }
 #nav-logo {
-    width: 30%;
+    width: 40%;
 }
 
 .phone_bar {
@@ -45,32 +46,21 @@ html {
 .main_list {
     list-style-type: upper-roman;
 }
-
-.footer_links {
-    margin-right: 5%;
-}
-
-.footer_link {
-    width: 35px;
-    margin-left: 1%;
-}
-
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    background-color: transparent;
-    text-align: right;
 }
-
-.myImg {
-    width: 15%;
-    padding: 3px;
+footer img {
+    width: 4%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 8%;
 }
-
-.myImg:hover {
-    width: 18%;
-    border: solid 3px;
+.footer_text {
+    color: #A7F3B5;
+    float: left;
 }
-
-.img-div {}
+footer img:hover {
+    width: 4.57957%;
+    
+}
