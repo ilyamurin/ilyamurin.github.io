@@ -1,66 +1,82 @@
-html {
+body {
     background-image: url(../images/background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
-
 
 .nav-text {
-    color: #E9E5B0;
+    color: #E9E5B0
 }
+
 .navbar {
     background-color: #040306;
-    width: 100%;
+    width: 100%
 }
+
 #nav-logo {
-    width: 40%;
+    width: 30%
 }
 
 .phone_bar {
-    background-color: #3F3C60;
-}
-
-.img-box {
-    width: 40%;
-    height: 50%;
-
+    background-color: #3F3C60
 }
 
 .img-con {
-    width: 10%;
+    width: 10%
 }
 
 .dropdown_background {
-    background-color: transparent;
+    background-color: transparent
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 700
+}
+
+main {
+    min-height: 100%
 }
 
 .main_text {
     color: #F7F3B5;
-    margin-left: 5px;
+    margin-left: 5px
 }
 
 .main_list {
-    list-style-type: upper-roman;
+    list-style-type: upper-roman
 }
-footer {
-    width: 100%;
+
+.footer_text {
+    color: #A7F3B5;
+    float: left;
+    margin-left: 10px
 }
+
+.footer_links {
+    margin-right: 5%
+}
+
+.footer_link {
+    width: 35px;
+    margin-left: 1%
+}
+
 footer img {
     width: 4%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
-    margin-top: 8%;
+    margin-top: 8%
 }
-.footer_text {
-    color: #A7F3B5;
-    float: left;
-}
+
 footer img:hover {
-    width: 4.57957%;
-    
+    width: 4.57957%
+}
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    flex-shrink: 0;
+    height: 180px;
+    clear: both
 }
