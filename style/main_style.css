@@ -1,12 +1,12 @@
-body {
+html {
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height:620px;
 }
 
 .nav-text {
     color: #E9E5B0;
+    font-size: 25px;
 }
 
 .navbar {
@@ -15,7 +15,7 @@ body {
 }
 
 #nav-logo {
-    width: 30%;
+    width: 40%;
 }
 
 .phone_bar {
