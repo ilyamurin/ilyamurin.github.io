@@ -43,7 +43,7 @@ main {
 .myImg {
     width: 100%;
     float: left;
-    border-bottom: 2px;
+    border-bottom: 5px;
 }
 
 .main_text {
