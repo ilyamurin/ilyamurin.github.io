@@ -39,6 +39,7 @@ main {
 }
 .img-div img {
     width: 100%;
+    float: left;
 }
 
 .main_text {
