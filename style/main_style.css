@@ -50,6 +50,9 @@ main {
     color: #F7F3B5;
     margin-left: 5px;
 }
+.center_text {
+    text-align: center;
+}
 
 .main_list {
     list-style-type: upper-roman;
