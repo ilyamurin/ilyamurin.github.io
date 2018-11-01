@@ -37,6 +37,9 @@ html {
 main {
     min-height: 100%;
 }
+.img-div img {
+    width: 100%;
+}
 
 .main_text {
     color: #F7F3B5;
