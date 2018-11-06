@@ -42,6 +42,9 @@ body {
 .img-con {
     width: 10%;
 }
+.img-div {
+    min-height: 100%;
+}
 
 .dropdown_background {
     background-color: transparent;
