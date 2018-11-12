@@ -1,8 +1,9 @@
 * {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,8 +22,13 @@ html, body {
     position: relative;
 }
 
+.dropdown-wrapper {
+    position: absolute;
+    background-color: #FF420E;
+}
+
 .nav-text {
-    color: #D3D2B5;
+    color: lightblue;
     font-size: 25px;
 }
 
@@ -39,13 +45,16 @@ html, body {
     background-color: #3F3C60;
 }
 
-#s1cap, #s2cap, #s3cap {
+#s1cap,
+#s2cap,
+#s3cap {
     margin-bottom: auto;
 }
 
 .caption {
-    color: #FF420E;
-    padding-bottom: 23%;
+    color: gold;
+    padding-bottom: 30%;
+    font-size: 325%;
 }
 
 .img-con {
@@ -60,8 +69,10 @@ html, body {
     background-color: transparent;
 }
 
-.dropdown-item {
-    color: #D3D2B5;
+#ddown {
+    background-color: lightblue;
+    color: lightblue;
+
 }
 
 .bold {
@@ -81,12 +92,16 @@ html, body {
     display: flow-root;
 }
 
-.op {
-    color: #003B46;
+.bgcolor {
+    background-color: black;
+}
+
+.lightyellow {
+    color: lightyellow;
 }
 
 .color {
-    color: #D3D2B5;
+    color: lightblue;
 }
 
 div.gallery {
@@ -107,10 +122,6 @@ div.desc {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .responsive {
     padding: 0 6px;
     float: left;
@@ -125,17 +136,18 @@ div.desc {
 
 .bold {
     text-decoration: solid;
-    color: #FF420E;
+    color: lightgreen;
 }
 
 .main_text {
-    color: #D3D2B5;
+    color: lightblue;
     text-align: center;
+    font-size: 120%;
 }
 
 .center_text {
     text-align: center;
-    color: #D3D2B5;
+    color: lightblue;
 }
 
 .main_list {
@@ -143,7 +155,7 @@ div.desc {
 }
 
 .footer_text {
-    color: #D3D2B5;
+    color: lightblue;
     float: left;
     margin: 35px 0px 0px 13px;
 }
@@ -182,8 +194,9 @@ footer {
 
 @media (max-width: 760px) {
     .caption {
-        color: #FF420E;
+        color: gold;
         padding-bottom: 0%;
+        font-size: 240%;
     }
 }
 
@@ -192,10 +205,22 @@ footer {
         width: 49.99999%;
         margin: 6px 0;
     }
+
+    #ddown {
+        background-color: lightblue;
+        color: lightblue !important;
+
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
+    }
+
+    #ddown {
+        background-color: lightblue;
+        color: lightblue !important;
+
     }
 }
